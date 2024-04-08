@@ -57,9 +57,24 @@ nav ul li a {
     color: #e62424;
 }
 
-.banner {
-    width: 100%; /* Definir a largura como 100% */
-    margin: 0; /* Remover margens */
+#sobre {
+    width: 100%; 
+}
+
+#sobre p {
+    text-indent: 1.5em;
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+}
+
+#sobre img {
+    padding-top: 25px;
+    padding-right: 25px;
+    float: left;
+    width: 600px;
 }
 
 section {
