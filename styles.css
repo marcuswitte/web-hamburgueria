@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 36px;
+    padding-top:20px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-color: #e62424;
+    text-align: center;
+}
+
+header {
+    background-image: url(logo.jpg);
+    background-size: contain; /* Garante que a imagem cubra todo o cabeçalho */
+    background-position: center; /* Centraliza a imagem no cabeçalho */
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    color: #e62424;
+    text-align: center; /* Centraliza o texto dentro do cabeçalho */
+    overflow: hidden; /* Limpa os floats para garantir que o cabeçalho tenha a altura correta */
+    align-items: center; /* Centraliza os itens verticalmente */
+    padding: 10px;
+}
+
+
+nav {
+    float: right;
+    vertical-align: text-top; /* Alinha o menu verticalmente */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* Remove a margem esquerda do primeiro item do menu */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e62424;
+}
+
+.banner {
+    width: 100%; /* Definir a largura como 100% */
+    margin: 0; /* Remover margens */
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+
+#produtos {
+    margin-left: 45px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#produtos img {
+    margin-left: 85px;
+    width: 100%; /* Set the width to fill its container */
+    max-width: 300px;
+    max-height: 300px;
+    text-align: center;
+    display:block;
+}
+
+#produtos h3 {
+    padding-top:30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#produtos p {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #f4f4f4;
+    color: #e62424;
+    text-align: center;
+    padding: 5px;
+    position: fixed; /* Fixar no rodapé */
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+h4 {
+    padding:5px;
+}
+
+h5 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+    padding-top:0;
+    color: #ffffff;
+}
